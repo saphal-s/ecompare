@@ -1,0 +1,191 @@
+.header{
+    height: 110px;
+    background-color: #105699;
+   padding: 20px 0px;
+}
+.flex{
+    margin-top: -5px !important;
+    /* width: 85%;
+    margin: auto; */
+    justify-content: center;
+}
+.header h2{
+    font-size: 30px;
+    color: #fff;
+}
+.header h2::after{
+    content: " ";
+    width: 70px;
+    display: block;
+    margin-top: 5px;
+    border-bottom: 3.5px solid rgb(255, 106, 0);
+}
+.header p{
+    margin-top: 3px;
+    color: #fff;
+}
+.flex{
+    display: flex;
+}
+.categories{
+    display: flex;
+    padding-left: 30px;
+    margin-top: 25px;
+}
+.categories .icon{
+    font-size: 30px;
+    color: #fff;
+}
+.categories h4{
+    color: #fff;
+    padding-left: 2px;
+    margin-top: 0px;
+}
+.search{
+    margin-top: 28px;
+}
+.search input{
+    width: 100%;
+    outline: none;
+    border: none;
+    height: 30px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+.search button{
+    height: 30px;
+    outline: none;
+    border: none;
+    width: 40px;
+    font-size: 25px;
+    background-color: #fff;
+    color:rgb(255, 106, 0);
+    font-weight: bold;
+}
+.search .sicon{
+    margin-top: -12px;
+}
+.favorites{
+    padding-left: 24px;
+    margin-top: 28px;
+    cursor: pointer;
+}
+.favorites p{
+    font-size: 17px;
+    font-weight: 500;
+}
+.favorites .ficon{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 7px;
+    margin-right: 4px;
+}
+.favorites .nicon{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 4px;
+    margin-right: 0px;
+}
+.trends{
+    background-color: #094985;
+    height: 45px;
+}
+.trending{
+    width: 90%;
+    padding-top: 10px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.trending ul li{
+    display: inline;
+    list-style: none;
+    margin: 0px 10px;
+    font-size: 15px;
+    font-weight: 400;
+    color:  #e6e6e6;
+}
+.trending h6{
+    color:  #e6e6e6;
+    padding-left: 20px;
+}
+
+.carousel .cars img{
+    height: 340px;
+}
+.carousel .carousel-control-next ,.carousel .carousel-control-prev{
+    display: none;
+}
+.side-ads img{
+    padding:10px 5px;
+    height: 175px;
+}
+
+.ficons{
+    height: 35px;
+    width: 35px;
+    background-color:#4267B2;
+    cursor: pointer;
+}
+.ficons .ficon{
+    color: #fff;
+    margin-left: 8px;
+    margin-top: 8px;
+    font-size: 19px;
+}
+.iicons{
+    height: 35px;
+    width: 35px;
+    background-color: #C13584;
+    cursor: pointer; 
+}
+.iicons .iicon{
+    color: #fff;
+    margin-left: 8px;
+    margin-top: 7px;
+    font-size: 19px;
+}
+.yicons{
+    height: 35px;
+    width: 35px;
+    background-color: #FF0000; 
+    cursor: pointer;
+}
+.yicons .yicon{
+    color: #fff;
+    margin-left: 8px;
+    margin-top: 7px;
+    font-size: 19px;
+}
+.hero_section{
+    position: relative;
+}
+
+.social-icons{
+    position: fixed;
+    z-index: 2;
+    top:27%;
+    right: 0;
+}
+
+
+.why_us{
+    padding: 20px;
+    background-color:#105699;
+}
+
+.why_us h5{
+    color: #fff;
+}
+
+.why_us .money-icon .micon{
+    font-size: 28px;
+    color: #fff;
+}
+.why_us h5{
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    padding-left: 5px;
+    font-size: 18px;
+}

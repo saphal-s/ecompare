@@ -1,0 +1,104 @@
+.review-wishlist{
+    border: 1px solid #105699;
+    border-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.review-wishlist p{
+    font-size: 17px;
+    font-weight: 500;
+}
+.review-wishlist p span{
+    font-size: 13px;
+}
+.review-wishlist button{
+    border: none;
+    outline: none;
+    width: 120px;
+    height: 35px;
+    background-color: #105699;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 10px;
+}
+.watch-review-button button{
+    border: none;
+    outline: none;
+    width: 120px;
+    height: 35px;
+    background-color:rgb(255, 72, 0);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+	animation: beat .4s infinite alternate;
+	transform-origin: center;
+}
+.watch-review-button button:hover{
+    background-color: #105699;
+}
+
+@keyframes beat{
+	to { transform: scale(1.1); }
+}
+.specifiacation_list ul li{
+    padding: 10px 0px;
+}
+.companies{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 1px solid #105699;
+}
+.companies img{
+    height: 100px;
+}
+.companies .price-buy{
+    display: flex;
+}
+.companies .price-buy button{
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 35px;
+    background-color: rgb(246, 132, 11);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+.companies .price-buy{
+    margin: 20px 0px 0px 0px ;
+}
+
+.companies .price-buy .price p{
+    font-weight: bold;
+    font-size: 18px;
+}
+.companies .price-buy .price del{
+    font-weight: 500;
+    font-size: 16px;
+}
+.popular-products p span{
+    background-color: #105699;
+    padding:8px 15px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.popular-products .products{
+    background-color: #cccc;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #fff;
+    padding: 10px;
+}
+.realted-header h2{
+font-weight: bold;
+}
+.realted-header h2:after{
+    content: "";
+    width: 120px;
+    border-bottom: 3px solid rgb(246, 132, 11);
+    display: block;
+}

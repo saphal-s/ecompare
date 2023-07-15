@@ -1,0 +1,19 @@
+.footer-nav ul li{
+    list-style: none;
+    display: inline;
+    flex-wrap: wrap;
+    padding: 0px 10px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.footer{
+    background-color: #ccc;
+    padding-top:13px;
+}
+.fcontainer{
+    display: flex;
+    justify-content:space-between;
+}
+.footer .copy{
+    font-weight: 500;
+}
